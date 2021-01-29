@@ -1,0 +1,73 @@
+body{
+    font-family: 'Hind Siliguri', sans-serif;
+    margin: 0;
+}
+.name-color{
+    color: orange;
+
+}
+h1{
+    font-size: 60px;
+}
+p{
+    font-weight: 600;
+    font-size: 30px;
+}
+.link-btn{
+    background-color: orange;
+    border-radius: 10px;
+    box-shadow: inset 4px -20px 10px -13px pink;
+    background-image: linear-gradient(45 deg, salmon tomato );
+    padding: 10px 25px;
+    color: white;
+    text-decoration: none;
+}
+.half-width{
+    width: 50%;
+    float: left;
+    
+}
+.half-width img{
+    width: 70%;
+}
+#work{
+    height: 800px;
+    margin-top: 300px;
+    background-image: linear-gradient(45deg, orange,tomato);
+    
+}
+
+
+#highlighter{
+    
+    text-align: center;
+
+    
+    
+}
+#latest{
+    color: cyan;
+    
+}
+
+
+.project {
+   
+    box-sizing: border-box;
+    float:left;
+    width: 27%;
+    padding: 5px;
+    margin: 10px;
+    margin-left: 80px;
+    border-radius: 10px;
+    box-shadow: 5px 10px 40px blue;
+}
+.project img{
+    width: 100%;
+    height: 80%;
+}
+.working-project::after{
+    content: "";
+    clear: both;
+    display: table;
+}
